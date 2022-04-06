@@ -46,5 +46,3 @@ We did not implement On-Board/De-Board Employees and On-Board/De-Board Managers 
 **Description of two web pages**
 + Type in shop address to search for the shop information as well as the product it serves. This requires the join of three tables(prodect, product_sold, shop).
 + Insert the information in three tables: customer, payment, customer_buy in database by a single page. Because the same customer will go to the store many times to buy different products, which will lead to the same customer information, but different products or payment information they purchased. Therefore, it is necessary to first determine whether the customer's information has been recorded before, if so, skip recording customer information directly, and record payment and customer_buy information. In this case, employees can efficiently process customer and payment information.
-
-For data related to the database, contact either one of the contributor.
